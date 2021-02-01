@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2479B2F25C4A7530047B3AF /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2479B2E25C4A7530047B3AF /* GameCell.swift */; };
+		A2A7A3F225C7CAEC006D9307 /* UIImageViewExstension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7A3F125C7CAEC006D9307 /* UIImageViewExstension.swift */; };
 		A2C1885B25C2D43E008A2ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C1885A25C2D43E008A2ACE /* AppDelegate.swift */; };
 		A2C1885D25C2D43E008A2ACE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C1885C25C2D43E008A2ACE /* SceneDelegate.swift */; };
-		A2C1885F25C2D43E008A2ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C1885E25C2D43E008A2ACE /* ViewController.swift */; };
 		A2C1886225C2D43E008A2ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C1886025C2D43E008A2ACE /* Main.storyboard */; };
 		A2C1886425C2D43F008A2ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C1886325C2D43F008A2ACE /* Assets.xcassets */; };
 		A2C1886725C2D43F008A2ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C1886525C2D43F008A2ACE /* LaunchScreen.storyboard */; };
+		A2C1889A25C30872008A2ACE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C1889925C30872008A2ACE /* NetworkManager.swift */; };
+		A2C1889E25C308D4008A2ACE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C1889D25C308D4008A2ACE /* Result.swift */; };
+		A2C188AD25C32BBC008A2ACE /* GamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C188AC25C32BBC008A2ACE /* GamesTableViewController.swift */; };
+		C24AC6850D4A3CAC9E91C6B7 /* Pods_WatchGamesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0892B8A4DD24B319D9FBCD7E /* Pods_WatchGamesApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0892B8A4DD24B319D9FBCD7E /* Pods_WatchGamesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchGamesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951FF69F272C9A2BE042D81F /* Pods-WatchGamesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGamesApp.debug.xcconfig"; path = "Target Support Files/Pods-WatchGamesApp/Pods-WatchGamesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A2479B2E25C4A7530047B3AF /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		A2A7A3F125C7CAEC006D9307 /* UIImageViewExstension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExstension.swift; sourceTree = "<group>"; };
 		A2C1885725C2D43E008A2ACE /* WatchGamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C1885A25C2D43E008A2ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C1885C25C2D43E008A2ACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2C1885E25C2D43E008A2ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2C1886125C2D43E008A2ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2C1886325C2D43F008A2ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C1886625C2D43F008A2ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2C1886825C2D43F008A2ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C1889925C30872008A2ACE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A2C1889D25C308D4008A2ACE /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A2C188AC25C32BBC008A2ACE /* GamesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GamesTableViewController.swift; path = WatchGamesApp/ViewControllers/GamesTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		F88472359F3BBE790A0CFEE0 /* Pods-WatchGamesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGamesApp.release.xcconfig"; path = "Target Support Files/Pods-WatchGamesApp/Pods-WatchGamesApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24AC6850D4A3CAC9E91C6B7 /* Pods_WatchGamesApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4901872E25D47144BEBFBA80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				951FF69F272C9A2BE042D81F /* Pods-WatchGamesApp.debug.xcconfig */,
+				F88472359F3BBE790A0CFEE0 /* Pods-WatchGamesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F5069C000474F1F6326B142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0892B8A4DD24B319D9FBCD7E /* Pods_WatchGamesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2C1884E25C2D43E008A2ACE = {
 			isa = PBXGroup;
 			children = (
 				A2C1885925C2D43E008A2ACE /* WatchGamesApp */,
 				A2C1885825C2D43E008A2ACE /* Products */,
+				4901872E25D47144BEBFBA80 /* Pods */,
+				6F5069C000474F1F6326B142 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,67 @@
 		A2C1885925C2D43E008A2ACE /* WatchGamesApp */ = {
 			isa = PBXGroup;
 			children = (
-				A2C1885A25C2D43E008A2ACE /* AppDelegate.swift */,
-				A2C1885C25C2D43E008A2ACE /* SceneDelegate.swift */,
-				A2C1885E25C2D43E008A2ACE /* ViewController.swift */,
-				A2C1886025C2D43E008A2ACE /* Main.storyboard */,
-				A2C1886325C2D43F008A2ACE /* Assets.xcassets */,
-				A2C1886525C2D43F008A2ACE /* LaunchScreen.storyboard */,
-				A2C1886825C2D43F008A2ACE /* Info.plist */,
+				A2C1889825C3081F008A2ACE /* Managers */,
+				A2C1889425C307DC008A2ACE /* Sources */,
+				A2C1889325C307BF008A2ACE /* SupportingFiles */,
+				A2C1889225C30776008A2ACE /* Storyboards */,
+				A2C1889125C30762008A2ACE /* ViewControllers */,
+				A2C1889025C3074C008A2ACE /* Models */,
 			);
 			path = WatchGamesApp;
+			sourceTree = "<group>";
+		};
+		A2C1889025C3074C008A2ACE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2C1889D25C308D4008A2ACE /* Result.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2C1889125C30762008A2ACE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2C188AC25C32BBC008A2ACE /* GamesTableViewController.swift */,
+				A2479B2E25C4A7530047B3AF /* GameCell.swift */,
+				A2A7A3F125C7CAEC006D9307 /* UIImageViewExstension.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2C1889225C30776008A2ACE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A2C1886525C2D43F008A2ACE /* LaunchScreen.storyboard */,
+				A2C1886025C2D43E008A2ACE /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A2C1889325C307BF008A2ACE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A2C1886825C2D43F008A2ACE /* Info.plist */,
+				A2C1885C25C2D43E008A2ACE /* SceneDelegate.swift */,
+				A2C1885A25C2D43E008A2ACE /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A2C1889425C307DC008A2ACE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2C1886325C2D43F008A2ACE /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A2C1889825C3081F008A2ACE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A2C1889925C30872008A2ACE /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2C1886B25C2D43F008A2ACE /* Build configuration list for PBXNativeTarget "WatchGamesApp" */;
 			buildPhases = (
+				C315450C3548CBC529CD9883 /* [CP] Check Pods Manifest.lock */,
 				A2C1885325C2D43E008A2ACE /* Sources */,
 				A2C1885425C2D43E008A2ACE /* Frameworks */,
 				A2C1885525C2D43E008A2ACE /* Resources */,
+				9AA0CBAB4EF9B843E9471E36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +218,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9AA0CBAB4EF9B843E9471E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatchGamesApp/Pods-WatchGamesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatchGamesApp/Pods-WatchGamesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WatchGamesApp/Pods-WatchGamesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C315450C3548CBC529CD9883 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchGamesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2C1885325C2D43E008A2ACE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C1885F25C2D43E008A2ACE /* ViewController.swift in Sources */,
+				A2C1889A25C30872008A2ACE /* NetworkManager.swift in Sources */,
+				A2C1889E25C308D4008A2ACE /* Result.swift in Sources */,
+				A2A7A3F225C7CAEC006D9307 /* UIImageViewExstension.swift in Sources */,
 				A2C1885B25C2D43E008A2ACE /* AppDelegate.swift in Sources */,
+				A2C188AD25C32BBC008A2ACE /* GamesTableViewController.swift in Sources */,
 				A2C1885D25C2D43E008A2ACE /* SceneDelegate.swift in Sources */,
+				A2479B2F25C4A7530047B3AF /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +415,13 @@
 		};
 		A2C1886C25C2D43F008A2ACE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951FF69F272C9A2BE042D81F /* Pods-WatchGamesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WatchGamesApp/Info.plist;
+				INFOPLIST_FILE = WatchGamesApp/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +435,13 @@
 		};
 		A2C1886D25C2D43F008A2ACE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88472359F3BBE790A0CFEE0 /* Pods-WatchGamesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WatchGamesApp/Info.plist;
+				INFOPLIST_FILE = WatchGamesApp/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
